@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>Online Code Editor</h1>
+            <div class="header-actions">
+                <button id="resetBtn" class="btn btn-reset">Reset</button>
+                <button id="downloadBtn" class="btn btn-download">Download</button>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <div class="editor-container">
+            <!-- Editor Panel -->
+            <div class="editor-panel">
+                <!-- HTML Editor -->
+                <div class="editor-section">
+                    <div class="editor-header">
+                        <h2>HTML</h2>
+                        <button class="clear-btn" data-target="htmlEditor">✕</button>
+                    </div>
+                    <textarea id="htmlEditor" class="editor" placeholder="Enter your HTML code here..."></textarea>
+                </div>
+
+                <!-- CSS Editor -->
+                <div class="editor-section">
+                    <div class="editor-header">
+                        <h2>CSS</h2>
+                        <button class="clear-btn" data-target="cssEditor">✕</button>
+                    </div>
+                    <textarea id="cssEditor" class="editor" placeholder="Enter your CSS code here..."></textarea>
+                </div>
+
+                <!-- JavaScript Editor -->
+                <div class="editor-section">
+                    <div class="editor-header">
+                        <h2>JavaScript</h2>
+                        <button class="clear-btn" data-target="jsEditor">✕</button>
+                    </div>
+                    <textarea id="jsEditor" class="editor" placeholder="Enter your JavaScript code here..."></textarea>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="divider"></div>
+
+            <!-- Preview Panel -->
+            <div class="preview-panel">
+                <div class="preview-header">
+                    <h2>Preview</h2>
+                    <button id="refreshBtn" class="refresh-btn" title="Refresh Preview">🔄</button>
+                </div>
+                <iframe id="preview" class="preview"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
