@@ -5,13 +5,13 @@
 }
 
 :root {
-    --primary-bg: #1e1e1e;
-    --secondary-bg: #252526;
-    --tertiary-bg: #2d2d30;
-    --text-color: #d4d4d4;
-    --accent-color: #007acc;
-    --border-color: #3e3e42;
-    --button-hover: #0e639c;
+    --primary-bg: #0f1419;
+    --secondary-bg: #1a1f2e;
+    --tertiary-bg: #252d3d;
+    --text-color: #e4e6eb;
+    --accent-color: #00d9ff;
+    --border-color: #2a3344;
+    --button-hover: #00b8d4;
 }
 
 body {
@@ -65,19 +65,19 @@ body {
 }
 
 .btn-reset {
-    background-color: #d16969;
+    background-color: #ff4757;
 }
 
 .btn-reset:hover {
-    background-color: #c55555;
+    background-color: #ff6b7a;
 }
 
 .btn-download {
-    background-color: #6a9955;
+    background-color: #2ed573;
 }
 
 .btn-download:hover {
-    background-color: #5a8945;
+    background-color: #26de81;
 }
 
 /* Editor Container */
@@ -215,7 +215,7 @@ body {
 .preview {
     flex: 1;
     border: none;
-    background-color: white;
+    background-color: #f5f7fa;
 }
 
 /* Responsive Design */
